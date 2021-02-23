@@ -1,0 +1,100 @@
+@import "var.less";
+
+.why-attend {
+    list-style: square;
+    margin: 0 0 22px 30px;
+    padding: 0;
+    line-height: 22px;
+    text-align: center;
+
+    
+
+    li {
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-size: 16px;
+        font-weight: 300;
+        list-style-position: inside;
+        
+    }
+
+}
+
+
+
+
+
+.register-group {
+
+    border: none;
+    
+    label {
+        color: @color-gray;
+        cursor: pointer;
+        font-weight: 400;  
+        font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+        margin-top: -10px;
+
+    }
+
+    input, select, textarea {
+        width: 100%;
+        border: 1px solid @color-form;
+        border-radius: 5px;
+        color: #888;
+        display: block;
+        margin: 6.5px 0 28.5px 0;
+        padding: 5.2px 8px 5px 8px;
+        font: 300 16px/22px 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        @media only screen and (max-width: @tablet) {
+            width: 50%;
+            margin: 10px auto;
+                
+          }
+
+        @media only screen and (max-width: @mobile) {
+            width: 50%;
+            margin: 10px auto;
+    
+                
+          }
+    
+    }
+    
+    
+
+    select {
+        height: 34px;
+        width: 60px;
+        margin-bottom: 29px;
+        padding-top: 5.4px;
+    }
+
+    textarea {
+        height: 77px;   
+        margin-top: 6.8px;
+        margin-bottom: 27.5px;
+    }
+}
+
+.btn-default {
+    border: 0;
+    background: @color-gray;
+    padding: 13.5px 30px;
+    font-size: 14px;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: -2.5px;
+    border-radius: 5px;
+    color: @color-white;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    text-decoration: none;    
+
+}
+
+.btns:hover {
+    background-color: #77a198;
+}
